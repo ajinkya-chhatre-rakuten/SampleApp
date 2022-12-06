@@ -1,0 +1,17 @@
+CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES
+CLANG_ENABLE_MODULES = YES
+CLANG_MODULES_AUTOLINK = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/RAuthenticationUI
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RAnalyticsBroadcast" "${PODS_CONFIGURATION_BUILD_DIR}/RAuthenticationChallenge" "${PODS_CONFIGURATION_BUILD_DIR}/RAuthenticationCore" "${PODS_CONFIGURATION_BUILD_DIR}/RSDKDeviceInformation" "${PODS_CONFIGURATION_BUILD_DIR}/RakutenEngineClient" "${PODS_CONFIGURATION_BUILD_DIR}/RakutenIdInformationClient" "${PODS_CONFIGURATION_BUILD_DIR}/RakutenMemberInformationClient" "${PODS_CONFIGURATION_BUILD_DIR}/RakutenWebClientKit"
+GCC_C_LANGUAGE_STANDARD = gnu99
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -framework "RAuthenticationCore" -framework "RakutenWebClientKit" -weak_framework "CoreLocation" -weak_framework "CoreTelephony" -weak_framework "Foundation" -weak_framework "LocalAuthentication" -weak_framework "MediaAccessibility" -weak_framework "MessageUI" -weak_framework "MobileCoreServices" -weak_framework "SafariServices" -weak_framework "SystemConfiguration" -weak_framework "UIKit" -weak_framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/RAuthenticationUI
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

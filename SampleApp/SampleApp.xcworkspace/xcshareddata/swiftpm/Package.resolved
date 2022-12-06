@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "revision" : "19b3c3ceed117c5cc883517c4e658548315ba70b",
+        "version" : "1.6.0"
+      }
+    },
+    {
+      "identity" : "ed25519swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pebble8888/ed25519swift.git",
+      "state" : {
+        "revision" : "1e821f5516049f5b83aca8cb3b982910cf8c028c",
+        "version" : "1.2.8"
+      }
+    },
+    {
+      "identity" : "id-sdk-ios-mirror",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Rakuten-MTSD-PAIS/id-sdk-ios-mirror.git",
+      "state" : {
+        "revision" : "25717c029be8273bca13304f9b62c4f328ec6485",
+        "version" : "2.9.0"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "022e4eeb79f817748544b318b991d9a70036bbf8",
+        "version" : "7.2.4"
+      }
+    },
+    {
+      "identity" : "kingfisherwebp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yeatse/KingfisherWebP.git",
+      "state" : {
+        "revision" : "3b68ee4c284b585ebcde29111ae318d7ce4a0d01",
+        "version" : "1.4.0"
+      }
+    },
+    {
+      "identity" : "libwebp-xcode",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/libwebp-Xcode",
+      "state" : {
+        "revision" : "4f52fc9b29600a03de6e05af16df0d694cb44301",
+        "version" : "1.2.4"
+      }
+    },
+    {
+      "identity" : "rakuten-ads-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rakuten-ads/Rakuten-Ads-iOS",
+      "state" : {
+        "revision" : "c7026ae282378fd900717f3b0fb26590ffe6f645",
+        "version" : "1.10.2"
+      }
+    },
+    {
+      "identity" : "swift-atomics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-atomics.git",
+      "state" : {
+        "revision" : "919eb1d83e02121cdb434c7bfc1f0c66ef17febe",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}

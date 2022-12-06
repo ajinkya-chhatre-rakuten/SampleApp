@@ -1,0 +1,4 @@
+framework module ReSwiftThunk {
+  header "ReSwiftThunk-Swift.h"
+  requires objc
+}

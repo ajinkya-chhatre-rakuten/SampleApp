@@ -1,0 +1,91 @@
+/* LOGIN DIALOG */
+"authentication.builtinLoginDialog.title"                           = "Login";
+"authentication.builtinLoginDialog.username(field).placeholder"     = "User ID";
+"authentication.builtinLoginDialog.password(field).placeholder"     = "Password";
+"authentication.builtinLoginDialog.password(field).passwordmanager" = "🔑";
+"authentication.builtinLoginDialog.showPassword(switch)"            = "Show Password";
+"authentication.builtinLoginDialog.passwordRetrieval(button)"       = "<u>Forgot your User ID or password?</u>";
+"authentication.builtinLoginDialog.message"                         = "Earn Rakuten Points and save on your next order!";
+"authentication.builtinLoginDialog.login(button)"                   = "<b>Login</b>";
+"authentication.builtinLoginDialog.newUserRegistration(button)"     = "Create a new Rakuten account (free)";
+"authentication.builtinLoginDialog.skip(button)"                    = "Close";
+"authentication.builtinLoginDialog.error.username_required"         = "Username is required.";
+"authentication.builtinLoginDialog.error.password_required"         = "Password is required.";
+"authentication.builtinLoginDialog.error.username_password_invalid" = "Invalid username or password.";
+"authentication.builtinLoginDialog.error.username_password_required"= "Both the username and password are required.";
+
+/* ACCOUNT SELECTION DIALOG */
+"authentication.builtinAccountSelectionDialog.title"                = "Login";
+"authentication.builtinAccountSelectionDialog.welcome"              = "Would you like to login as <b>{FULLNAME}</b>?";
+"authentication.builtinAccountSelectionDialog.login(button)"        = "<b>Login</b>";
+"authentication.builtinAccountSelectionDialog.useOtherAccount"      = "Use a different account for this app.";
+"authentication.builtinAccountSelectionDialog.manualLogin(button)"  = "Login with a different account";
+"authentication.builtinAccountSelectionDialog.skip(button)"         = "Close";
+
+/* LOGOUT DIALOG */
+"authentication.builtinLogoutDialog.title"                          = "Logout";
+"authentication.builtinLogoutDialog.revokeAccessToken(button)"      = "Logout";
+"authentication.builtinLogoutDialog.logoutCompletely(button)"       = "Logout from all Rakuten Apps";
+"authentication.builtinLogoutDialog.cancel(button)"                 = "Close";
+
+"authentication.builtinLogoutDialog.confirmLogoutAlert.title"           = "Logout";
+"authentication.builtinLogoutDialog.confirmLogoutAlert.message"         = "You are about to logout from {APP_NAME}";
+"authentication.builtinLogoutDialog.confirmLogoutAlert.proceed(button)" = "Logout";
+"authentication.builtinLogoutDialog.confirmLogoutAlert.cancel(button)"  = "Cancel";
+
+"authentication.builtinLogoutDialog.confirmLogoutFromAllAlert.title"           = "Logout from all Rakuten Apps";
+"authentication.builtinLogoutDialog.confirmLogoutFromAllAlert.message"         = "You are about to logout from all Rakuten apps.";
+"authentication.builtinLogoutDialog.confirmLogoutFromAllAlert.proceed(button)" = "Logout";
+"authentication.builtinLogoutDialog.confirmLogoutFromAllAlert.cancel(button)"  = "Cancel";
+
+/* VERIFICATION DIALOG */
+"authentication.builtinVerificationDialog.title"                        = "Login";
+"authentication.builtinVerificationDialog.message"                      = "<b>{FULLNAME}</b>,\n{REASON}";
+"authentication.builtinVerificationDialog.passwordRetrieval(button)"    = "<u>Forgot your password?</u>";
+"authentication.builtinVerificationDialog.showPassword(switch)"         = "Show Password";
+"authentication.builtinVerificationDialog.password(field).placeholder"  = "Password";
+"authentication.builtinVerificationDialog.confirm(button)"              = "<b>Login</b>";
+"authentication.builtinVerificationDialog.cancel(button)"               = "Cancel";
+"authentication.builtinVerificationDialog.error.passwordRequired"       = "Password is required.";
+"authentication.builtinVerificationDialog.error.passwordInvalid"        = "Invalid password.";
+"authentication.builtinVerificationDialog.error.networkError"           = "The server cannot be reached at the moment. Please retry later.";
+
+/* VERIFICATION WORKFLOW */
+"authentication.builtinVerificationWorkflow.touchID.message"             = "{FULLNAME}\n\n{REASON}";
+
+"authentication.builtinVerificationWorkflow.error.alreadyRunning"        = "Verification workflow already in progress";
+"authentication.builtinVerificationWorkflow.error.alreadyRunning.reason" = "A verification workflow is already in progress and a new workflow cannot be started until the current workflow completes or is cancelled.";
+
+"authentication.builtinVerificationWorkflow.error.cancelled"        = "Verification workflow cancelled";
+"authentication.builtinVerificationWorkflow.error.cancelled.reason" = "The verification workflow was cancelled before completing.";
+
+"authentication.builtinVerificationWorkflow.error.couldNotAuthenticate"        = "Could not authenticate";
+"authentication.builtinVerificationWorkflow.error.couldNotAuthenticate.reason" = "Could not authenticate with the provided credentials.";
+
+"authentication.builtinVerificationWorkflow.error.biometricCheckFailed"                     = "Could not authenticate using biometrics";
+"authentication.builtinVerificationWorkflow.error.biometricCheckFailed.invalidPassword"     = "The password that was obtained using biometrics was invalid.";
+"authentication.builtinVerificationWorkflow.error.biometricCheckFailed.noPasswordAvailable" = "The password could not be obtained using biometrics and needs to be entered manually.";
+
+"authentication.builtinVerificationWorkflow.error.failed"        = "Failed to verify user credentials";
+"authentication.builtinVerificationWorkflow.error.failed.reason" = "Attempt to verify user credentials failed because an error occurred that was not recoverable.";
+
+"authentication.builtinVerificationWorkflow.error.networkError"        = "Could not connect to server";
+"authentication.builtinVerificationWorkflow.error.networkError.reason" = "The server cannot be reached at the moment. Please retry later.";
+
+"authentication.builtinVerificationWorkflow.error.invalidAuthenticator"        = "Invalid authenticator";
+"authentication.builtinVerificationWorkflow.error.invalidAuthenticator.reason" = "The authenticator was not able to generate a login operation.";
+
+/* MISC */
+"authentication.builtinDialogs.privacyPolicyPage(title)"    = "Privacy Policy";
+"authentication.builtinDialogs.privacyPolicy(button)"       = "<u>Privacy Policy</u>";
+"authentication.builtinDialogs.privacyPolicyURL"            = "https://privacy.rakuten.co.jp/english/app/";
+"authentication.builtinDialogs.privacyPolicyAcknowledgement(date)" = "By logging in, I agree to the Privacy Policy.";
+"authentication.builtinDialogs.helpPage(title)"             = "Help";
+"authentication.builtinDialogs.help(button)"                = "<u>Help</u>";
+"authentication.builtinDialogs.helpURL"                     = "https://ichiba-en.faq.rakuten.net/detail/000007280";
+"authentication.builtinDialogs.copyrightFooter"             = "©Rakuten, inc.";
+"authentication.builtinDialogs.error.noPermissionToPublishToken"        = "The server appears to be under maintenance. Please try again later.";
+
+"authentication.format.fullname(firstName, middleName, lastName)" = "%1$@ %2$@ %3$@";
+"authentication.format.fullname(firstName, lastName)" = "%1$@\U00A0%2$@";
+"authentication.format.displayname(firstName, lastName)" = "%1$@";

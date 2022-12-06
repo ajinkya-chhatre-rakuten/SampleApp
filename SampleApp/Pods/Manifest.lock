@@ -1,0 +1,219 @@
+PODS:
+  - Firebase/Analytics (7.3.0):
+    - Firebase/Core
+  - Firebase/Core (7.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 7.3.0)
+  - Firebase/CoreOnly (7.3.0):
+    - FirebaseCore (= 7.3.0)
+  - Firebase/Crashlytics (7.3.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 7.3.0)
+  - Firebase/RemoteConfig (7.3.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 7.3.0)
+  - FirebaseABTesting (7.11.0):
+    - FirebaseCore (~> 7.0)
+  - FirebaseAnalytics (7.3.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleAppMeasurement (= 7.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30906.0)
+  - FirebaseCore (7.3.0):
+    - FirebaseCoreDiagnostics (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.3.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30906.0)
+  - FirebaseCrashlytics (7.3.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleDataTransport (~> 8.0)
+    - nanopb (~> 2.30906.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseRemoteConfig (7.3.0):
+    - FirebaseABTesting (~> 7.0)
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+  - GoogleAppMeasurement (7.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30906.0)
+  - GoogleDataTransport (8.1.0):
+    - nanopb (~> 2.30906.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.8.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.8.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.8.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.8.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.8.0)"
+  - GoogleUtilities/Reachability (7.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.8.0):
+    - GoogleUtilities/Logger
+  - Keys (1.0.1)
+  - nanopb (2.30906.0):
+    - nanopb/decode (= 2.30906.0)
+    - nanopb/encode (= 2.30906.0)
+  - nanopb/decode (2.30906.0)
+  - nanopb/encode (2.30906.0)
+  - PromisesObjC (1.2.12)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - RakutenEngineClient (1.5.0):
+    - RakutenWebClientKit (~> 1.3)
+    - RSDKDeviceInformation (~> 1.7)
+  - RakutenIdInformationClient (1.1.0):
+    - RakutenWebClientKit (~> 1.3)
+  - RakutenMemberInformationClient (1.3.0):
+    - RakutenWebClientKit (~> 1.3)
+  - RakutenWebClientKit (1.3.0)
+  - RAnalytics (9.6.0):
+    - RAnalytics/RAT (= 9.6.0)
+  - RAnalytics/Core (9.6.0):
+    - RSDKUtils (~> 3.0.0)
+    - RSDKUtils/RLogger (~> 3.0.0)
+  - RAnalytics/RAT (9.6.0):
+    - RAnalytics/Core
+  - RAnalyticsBroadcast (1.1.0)
+  - RAuthenticationChallenge (4.3.7):
+    - RAnalyticsBroadcast (~> 1.1)
+  - RAuthenticationCore (4.3.7):
+    - RakutenEngineClient (~> 1.5)
+    - RakutenIdInformationClient (~> 1.1)
+    - RakutenMemberInformationClient (~> 1.3)
+    - RakutenWebClientKit (~> 1.3)
+    - RAnalyticsBroadcast (~> 1.1)
+    - RAuthenticationCore/Challenge (= 4.3.7)
+  - RAuthenticationCore/Challenge (4.3.7):
+    - RakutenEngineClient (~> 1.5)
+    - RakutenIdInformationClient (~> 1.1)
+    - RakutenMemberInformationClient (~> 1.3)
+    - RakutenWebClientKit (~> 1.3)
+    - RAnalyticsBroadcast (~> 1.1)
+    - RAuthenticationChallenge (>= 4.3.7, ~> 4.3)
+  - RAuthenticationUI (4.3.7):
+    - RakutenWebClientKit (~> 1.3)
+    - RAuthenticationCore (>= 4.3.7, ~> 4.0)
+  - RLogger (2.0.0)
+  - RPushPNP (4.2.1):
+    - RPushPNP/Core (= 4.2.1)
+  - RPushPNP/Core (4.2.1):
+    - RakutenWebClientKit (~> 1.2)
+    - RAnalytics/Core (>= 4.1.0)
+    - RLogger (~> 2.0)
+  - RSDKDeviceInformation (1.7.1)
+  - RSDKUtils (3.0.0):
+    - RSDKUtils/Main (= 3.0.0)
+  - RSDKUtils/Main (3.0.0):
+    - RSDKUtils/RLogger
+  - RSDKUtils/RLogger (3.0.0)
+
+DEPENDENCIES:
+  - Firebase/Analytics (~> 7.3.0)
+  - Firebase/Crashlytics (~> 7.3.0)
+  - Firebase/RemoteConfig (~> 7.3.0)
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - R.swift (~> 5.2.2)
+  - RAnalytics (= 9.6.0)
+  - RAuthenticationChallenge (~> 4.3.5)
+  - RAuthenticationCore (~> 4.3.5)
+  - RAuthenticationUI (~> 4.3.5)
+  - RPushPNP (~> 4.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseRemoteConfig
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - R.swift
+    - R.swift.Library
+    - RSDKUtils
+  https://gitpub.rakuten-it.com/scm/eco/core-ios-specs.git:
+    - RakutenEngineClient
+    - RakutenIdInformationClient
+    - RakutenMemberInformationClient
+    - RakutenWebClientKit
+    - RAnalytics
+    - RAnalyticsBroadcast
+    - RAuthenticationChallenge
+    - RAuthenticationCore
+    - RAuthenticationUI
+    - RLogger
+    - RPushPNP
+    - RSDKDeviceInformation
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  Firebase: 26223c695fe322633274198cb19dca8cb7e54416
+  FirebaseABTesting: e66f1f80747792630d9b292966de206d5df9853b
+  FirebaseAnalytics: 2580c2d62535ae7b644143d48941fcc239ea897a
+  FirebaseCore: 4d3c72622ce0e2106aaa07bb4b2935ba2c370972
+  FirebaseCoreDiagnostics: d50e11039e5984d92c8a512be2395f13df747350
+  FirebaseCrashlytics: d31325312c92e2cb2f0386d589b9aa44e303d99b
+  FirebaseInstallations: a58d4f72ec5861840b84df489f2668d970df558a
+  FirebaseRemoteConfig: 826fad8bec5ce1912ef97a124d6ec0ce4dcf6ec1
+  GoogleAppMeasurement: 8d3c0aeede16ab7764144b5a4ca8e1d4323841b7
+  GoogleDataTransport: 116c84c4bdeb76be2a7a46de51244368f9794eab
+  GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
+  nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  RakutenEngineClient: 547926042551a33703d9ec426d6f6d2bd98502a0
+  RakutenIdInformationClient: d2038b8549ccf07cfe7af4f6848d61319af77d36
+  RakutenMemberInformationClient: 810b4e60122a4c7dc913bc8a0f8cc0250e7e23b7
+  RakutenWebClientKit: d1f276a1b57f3c8941e0547c4706a233591d5532
+  RAnalytics: dcc46aca1c3e54d5f877992dadece752b51a6aa9
+  RAnalyticsBroadcast: 3a0dbd1c99ab07d8d2e89e08ec5ef05d84943a27
+  RAuthenticationChallenge: 2190b314c46df4352fa2cc5dc7cd4d87617230b9
+  RAuthenticationCore: d6116ed3089274c84ed48fda64186115a9ff900b
+  RAuthenticationUI: ce23137fc4b8d4b9a71152e76995619789fda80b
+  RLogger: f1c462bdb65de6035417b8fad0d56e0323041320
+  RPushPNP: beff7206af5e61162c5dff1c201378069ea92d15
+  RSDKDeviceInformation: 63ae699209326a2983bf7959a92aba0952e7ca3d
+  RSDKUtils: 36d97c9a41b5663ba56e73c626d27034a6c317e5
+
+PODFILE CHECKSUM: e05e2c884480b301a23e5cec3e20c2850f520d3f
+
+COCOAPODS: 1.11.2

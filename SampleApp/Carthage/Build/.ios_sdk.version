@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v4.29.6",
+  "iOS" : [
+    {
+      "name" : "AdjustSdkIm",
+      "hash" : "812e6992ec61e729bb2585eb1a7c8e3bd3e4cafcddcd6b221cf5a9d7685877f2",
+      "linking" : "dynamic"
+    }
+  ]
+}

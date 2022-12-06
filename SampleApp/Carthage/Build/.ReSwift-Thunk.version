@@ -1,0 +1,11 @@
+{
+  "commitish" : "2.0.1",
+  "iOS" : [
+    {
+      "hash" : "f7eafdfe59c5405c6bdbd2f71abbb921bc004763cc5526ae4dfb10391a660b0a",
+      "name" : "ReSwiftThunk",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module RAuthenticationChallenge {
+  umbrella header "RAuthenticationChallenge.h"
+
+  export *
+  module * { export * }
+}

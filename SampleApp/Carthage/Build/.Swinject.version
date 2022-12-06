@@ -1,0 +1,11 @@
+{
+  "commitish" : "2.7.1",
+  "iOS" : [
+    {
+      "hash" : "6ec5bb3558fe27659dc59d2ea828acb2ea717dae44a67c02fddf9fee9986cd9e",
+      "name" : "Swinject",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+    }
+  ]
+}

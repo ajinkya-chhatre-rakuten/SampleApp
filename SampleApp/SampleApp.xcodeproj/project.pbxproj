@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CB345C292DD42700422277 /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB345B292DD42700422277 /* SampleApp.swift */; };
+		03CB345E292DD42700422277 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB345D292DD42700422277 /* ContentView.swift */; };
+		03CB3460292DD42900422277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CB345F292DD42900422277 /* Assets.xcassets */; };
+		03CB3464292DD42900422277 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CB3463292DD42900422277 /* Preview Assets.xcassets */; };
+		03CB346B292DD77200422277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB346A292DD77200422277 /* AppDelegate.swift */; };
+		03CB346E292DD7BB00422277 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CB346D292DD7BB00422277 /* UIKit.framework */; platformFilter = ios; };
+		03CB3471292F275C00422277 /* RakutenOneAuthClaims in Frameworks */ = {isa = PBXBuildFile; productRef = 03CB3470292F275C00422277 /* RakutenOneAuthClaims */; };
+		03CB3473292F275C00422277 /* RakutenOneAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 03CB3472292F275C00422277 /* RakutenOneAuthCore */; };
+		03CB3475292F275C00422277 /* RakutenOneAuthDeviceCheckAssertions in Frameworks */ = {isa = PBXBuildFile; productRef = 03CB3474292F275C00422277 /* RakutenOneAuthDeviceCheckAssertions */; };
+		03CB3477292F275C00422277 /* RakutenOneAuthRAE in Frameworks */ = {isa = PBXBuildFile; productRef = 03CB3476292F275C00422277 /* RakutenOneAuthRAE */; };
+		03CB3479292F275C00422277 /* RakutenOneAuthREM in Frameworks */ = {isa = PBXBuildFile; productRef = 03CB3478292F275C00422277 /* RakutenOneAuthREM */; };
+		03CB347C2930750F00422277 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 03CB347B2930750F00422277 /* Kingfisher */; };
+		03CB347F2930768B00422277 /* KingfisherWebP in Frameworks */ = {isa = PBXBuildFile; productRef = 03CB347E2930768B00422277 /* KingfisherWebP */; };
+		03CB34822930779E00422277 /* RUNABanner in Frameworks */ = {isa = PBXBuildFile; productRef = 03CB34812930779E00422277 /* RUNABanner */; };
+		03F0E15E29368ACA00DEA962 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E15D29368AC900DEA962 /* Alamofire.framework */; };
+		03F0E15F29368ACA00DEA962 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E15D29368AC900DEA962 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E1632936906A00DEA962 /* Atributika.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1622936906900DEA962 /* Atributika.framework */; };
+		03F0E1642936906A00DEA962 /* Atributika.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1622936906900DEA962 /* Atributika.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E166293694F500DEA962 /* AdjustSdkIm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E165293694F500DEA962 /* AdjustSdkIm.framework */; };
+		03F0E167293694F500DEA962 /* AdjustSdkIm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E165293694F500DEA962 /* AdjustSdkIm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E16B2936988100DEA962 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1682936988000DEA962 /* TinyConstraints.framework */; };
+		03F0E16C2936988100DEA962 /* TinyConstraints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1682936988000DEA962 /* TinyConstraints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E17229369E5800DEA962 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E17129369E5800DEA962 /* Swinject.framework */; };
+		03F0E17329369E5800DEA962 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E17129369E5800DEA962 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E1752936A19300DEA962 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1742936A19300DEA962 /* CocoaLumberjack.framework */; };
+		03F0E1762936A19400DEA962 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1742936A19300DEA962 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E1782936A1CB00DEA962 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1772936A1CB00DEA962 /* CocoaLumberjackSwift.framework */; };
+		03F0E1792936A1CC00DEA962 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1772936A1CB00DEA962 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E17C29384DDB00DEA962 /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E17A29384DDA00DEA962 /* ReSwift.framework */; };
+		03F0E17D29384DDC00DEA962 /* ReSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E17A29384DDA00DEA962 /* ReSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E17E29384DDC00DEA962 /* ReSwiftThunk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E17B29384DDB00DEA962 /* ReSwiftThunk.framework */; };
+		03F0E17F29384DDD00DEA962 /* ReSwiftThunk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E17B29384DDB00DEA962 /* ReSwiftThunk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03F0E1872938803500DEA962 /* SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F0E1862938803500DEA962 /* SampleAppTests.swift */; };
+		03F0E19129388C0300DEA962 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E1692936988000DEA962 /* Nimble.framework */; };
+		03F0E19229388C0700DEA962 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0E16A2936988100DEA962 /* Quick.framework */; };
+		88F2681C858E9C2FF0378F6C /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF7E601404F43EC55E2FE23 /* Pods_SampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F0E1882938803500DEA962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CB3450292DD42600422277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CB3457292DD42600422277;
+			remoteInfo = SampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03F0E16029368ACA00DEA962 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03F0E1642936906A00DEA962 /* Atributika.framework in Embed Frameworks */,
+				03F0E17D29384DDC00DEA962 /* ReSwift.framework in Embed Frameworks */,
+				03F0E16C2936988100DEA962 /* TinyConstraints.framework in Embed Frameworks */,
+				03F0E167293694F500DEA962 /* AdjustSdkIm.framework in Embed Frameworks */,
+				03F0E17329369E5800DEA962 /* Swinject.framework in Embed Frameworks */,
+				03F0E17F29384DDD00DEA962 /* ReSwiftThunk.framework in Embed Frameworks */,
+				03F0E1792936A1CC00DEA962 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+				03F0E1762936A19400DEA962 /* CocoaLumberjack.framework in Embed Frameworks */,
+				03F0E15F29368ACA00DEA962 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03CB3458292DD42600422277 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CB345B292DD42700422277 /* SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
+		03CB345D292DD42700422277 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03CB345F292DD42900422277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03CB3461292DD42900422277 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
+		03CB3463292DD42900422277 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03CB346A292DD77200422277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03CB346D292DD7BB00422277 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		03F0E15D29368AC900DEA962 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		03F0E1622936906900DEA962 /* Atributika.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Atributika.framework; path = Carthage/Build/iOS/Atributika.framework; sourceTree = "<group>"; };
+		03F0E165293694F500DEA962 /* AdjustSdkIm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdjustSdkIm.framework; path = Carthage/Build/iOS/AdjustSdkIm.framework; sourceTree = "<group>"; };
+		03F0E1682936988000DEA962 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
+		03F0E1692936988000DEA962 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		03F0E16A2936988100DEA962 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		03F0E17129369E5800DEA962 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		03F0E1742936A19300DEA962 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		03F0E1772936A1CB00DEA962 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		03F0E17A29384DDA00DEA962 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		03F0E17B29384DDB00DEA962 /* ReSwiftThunk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwiftThunk.framework; path = Carthage/Build/iOS/ReSwiftThunk.framework; sourceTree = "<group>"; };
+		03F0E1842938803500DEA962 /* SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F0E1862938803500DEA962 /* SampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppTests.swift; sourceTree = "<group>"; };
+		1CF7E601404F43EC55E2FE23 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D530DD751176FE26803DDD23 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		FD13AA4BC268965533106C27 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CB3455292DD42600422277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F0E166293694F500DEA962 /* AdjustSdkIm.framework in Frameworks */,
+				03F0E16B2936988100DEA962 /* TinyConstraints.framework in Frameworks */,
+				03F0E1632936906A00DEA962 /* Atributika.framework in Frameworks */,
+				03F0E17229369E5800DEA962 /* Swinject.framework in Frameworks */,
+				03CB3479292F275C00422277 /* RakutenOneAuthREM in Frameworks */,
+				03CB346E292DD7BB00422277 /* UIKit.framework in Frameworks */,
+				03CB3475292F275C00422277 /* RakutenOneAuthDeviceCheckAssertions in Frameworks */,
+				03CB3473292F275C00422277 /* RakutenOneAuthCore in Frameworks */,
+				03CB347C2930750F00422277 /* Kingfisher in Frameworks */,
+				03F0E17C29384DDB00DEA962 /* ReSwift.framework in Frameworks */,
+				03CB3471292F275C00422277 /* RakutenOneAuthClaims in Frameworks */,
+				03F0E1752936A19300DEA962 /* CocoaLumberjack.framework in Frameworks */,
+				03F0E17E29384DDC00DEA962 /* ReSwiftThunk.framework in Frameworks */,
+				03CB34822930779E00422277 /* RUNABanner in Frameworks */,
+				03F0E1782936A1CB00DEA962 /* CocoaLumberjackSwift.framework in Frameworks */,
+				03F0E15E29368ACA00DEA962 /* Alamofire.framework in Frameworks */,
+				03CB3477292F275C00422277 /* RakutenOneAuthRAE in Frameworks */,
+				03CB347F2930768B00422277 /* KingfisherWebP in Frameworks */,
+				88F2681C858E9C2FF0378F6C /* Pods_SampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F0E1812938803500DEA962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F0E19229388C0700DEA962 /* Quick.framework in Frameworks */,
+				03F0E19129388C0300DEA962 /* Nimble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CB344F292DD42600422277 = {
+			isa = PBXGroup;
+			children = (
+				03CB345A292DD42700422277 /* SampleApp */,
+				03F0E1852938803500DEA962 /* SampleAppTests */,
+				03CB3459292DD42600422277 /* Products */,
+				03CB346C292DD7BB00422277 /* Frameworks */,
+				1ED46132960F10DA115A6653 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		03CB3459292DD42600422277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CB3458292DD42600422277 /* SampleApp.app */,
+				03F0E1842938803500DEA962 /* SampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CB345A292DD42700422277 /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				03CB345B292DD42700422277 /* SampleApp.swift */,
+				03CB345D292DD42700422277 /* ContentView.swift */,
+				03CB346A292DD77200422277 /* AppDelegate.swift */,
+				03CB345F292DD42900422277 /* Assets.xcassets */,
+				03CB3461292DD42900422277 /* SampleApp.entitlements */,
+				03CB3462292DD42900422277 /* Preview Content */,
+			);
+			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		03CB3462292DD42900422277 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03CB3463292DD42900422277 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03CB346C292DD7BB00422277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F0E17A29384DDA00DEA962 /* ReSwift.framework */,
+				03F0E17B29384DDB00DEA962 /* ReSwiftThunk.framework */,
+				03F0E1772936A1CB00DEA962 /* CocoaLumberjackSwift.framework */,
+				03F0E1742936A19300DEA962 /* CocoaLumberjack.framework */,
+				03F0E17129369E5800DEA962 /* Swinject.framework */,
+				03F0E1692936988000DEA962 /* Nimble.framework */,
+				03F0E16A2936988100DEA962 /* Quick.framework */,
+				03F0E1682936988000DEA962 /* TinyConstraints.framework */,
+				03F0E165293694F500DEA962 /* AdjustSdkIm.framework */,
+				03F0E1622936906900DEA962 /* Atributika.framework */,
+				03F0E15D29368AC900DEA962 /* Alamofire.framework */,
+				03CB346D292DD7BB00422277 /* UIKit.framework */,
+				1CF7E601404F43EC55E2FE23 /* Pods_SampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03F0E1852938803500DEA962 /* SampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F0E1862938803500DEA962 /* SampleAppTests.swift */,
+			);
+			path = SampleAppTests;
+			sourceTree = "<group>";
+		};
+		1ED46132960F10DA115A6653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD13AA4BC268965533106C27 /* Pods-SampleApp.debug.xcconfig */,
+				D530DD751176FE26803DDD23 /* Pods-SampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CB3457292DD42600422277 /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CB3467292DD42900422277 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				4BD39FE0F482C21F83922624 /* [CP] Check Pods Manifest.lock */,
+				03CB3454292DD42600422277 /* Sources */,
+				03CB3455292DD42600422277 /* Frameworks */,
+				03CB3456292DD42600422277 /* Resources */,
+				03F0E16029368ACA00DEA962 /* Embed Frameworks */,
+				03F0E16129368B0900DEA962 /* ShellScript */,
+				5850EC9C5A762C6D7C19CBD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp;
+			packageProductDependencies = (
+				03CB3470292F275C00422277 /* RakutenOneAuthClaims */,
+				03CB3472292F275C00422277 /* RakutenOneAuthCore */,
+				03CB3474292F275C00422277 /* RakutenOneAuthDeviceCheckAssertions */,
+				03CB3476292F275C00422277 /* RakutenOneAuthRAE */,
+				03CB3478292F275C00422277 /* RakutenOneAuthREM */,
+				03CB347B2930750F00422277 /* Kingfisher */,
+				03CB347E2930768B00422277 /* KingfisherWebP */,
+				03CB34812930779E00422277 /* RUNABanner */,
+			);
+			productName = SampleApp;
+			productReference = 03CB3458292DD42600422277 /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F0E1832938803500DEA962 /* SampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F0E18C2938803500DEA962 /* Build configuration list for PBXNativeTarget "SampleAppTests" */;
+			buildPhases = (
+				03F0E1802938803500DEA962 /* Sources */,
+				03F0E1812938803500DEA962 /* Frameworks */,
+				03F0E1822938803500DEA962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F0E1892938803500DEA962 /* PBXTargetDependency */,
+			);
+			name = SampleAppTests;
+			productName = SampleAppTests;
+			productReference = 03F0E1842938803500DEA962 /* SampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CB3450292DD42600422277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					03CB3457292DD42600422277 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					03F0E1832938803500DEA962 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 03CB3457292DD42600422277;
+					};
+				};
+			};
+			buildConfigurationList = 03CB3453292DD42600422277 /* Build configuration list for PBXProject "SampleApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03CB344F292DD42600422277;
+			packageReferences = (
+				03CB346F292F275C00422277 /* XCRemoteSwiftPackageReference "id-sdk-ios-mirror.git" */,
+				03CB347A2930750F00422277 /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
+				03CB347D2930768B00422277 /* XCRemoteSwiftPackageReference "KingfisherWebP.git" */,
+				03CB34802930779E00422277 /* XCRemoteSwiftPackageReference "Rakuten-Ads-iOS" */,
+			);
+			productRefGroup = 03CB3459292DD42600422277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CB3457292DD42600422277 /* SampleApp */,
+				03F0E1832938803500DEA962 /* SampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CB3456292DD42600422277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CB3464292DD42900422277 /* Preview Assets.xcassets in Resources */,
+				03CB3460292DD42900422277 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F0E1822938803500DEA962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03F0E16129368B0900DEA962 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AdjustSdkIm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/TinyConstraints",
+				"$(SRCROOT)/Carthage/Build/iOS/Swinject",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjack.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjackSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwiftThunk.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		4BD39FE0F482C21F83922624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5850EC9C5A762C6D7C19CBD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp/Pods-SampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp/Pods-SampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp/Pods-SampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CB3454292DD42600422277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CB346B292DD77200422277 /* AppDelegate.swift in Sources */,
+				03CB345E292DD42700422277 /* ContentView.swift in Sources */,
+				03CB345C292DD42700422277 /* SampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F0E1802938803500DEA962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F0E1872938803500DEA962 /* SampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F0E1892938803500DEA962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CB3457292DD42600422277 /* SampleApp */;
+			targetProxy = 03F0E1882938803500DEA962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CB3465292DD42900422277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03CB3466292DD42900422277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03CB3468292DD42900422277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD13AA4BC268965533106C27 /* Pods-SampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleApp/SampleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.rakuten.com.SampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03CB3469292DD42900422277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D530DD751176FE26803DDD23 /* Pods-SampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleApp/SampleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.rakuten.com.SampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03F0E18A2938803500DEA962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.rakuten.com.SampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleApp";
+			};
+			name = Debug;
+		};
+		03F0E18B2938803500DEA962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.rakuten.com.SampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CB3453292DD42600422277 /* Build configuration list for PBXProject "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CB3465292DD42900422277 /* Debug */,
+				03CB3466292DD42900422277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CB3467292DD42900422277 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CB3468292DD42900422277 /* Debug */,
+				03CB3469292DD42900422277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F0E18C2938803500DEA962 /* Build configuration list for PBXNativeTarget "SampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F0E18A2938803500DEA962 /* Debug */,
+				03F0E18B2938803500DEA962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03CB346F292F275C00422277 /* XCRemoteSwiftPackageReference "id-sdk-ios-mirror.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rakuten-MTSD-PAIS/id-sdk-ios-mirror.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.9.0;
+			};
+		};
+		03CB347A2930750F00422277 /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.2.4;
+			};
+		};
+		03CB347D2930768B00422277 /* XCRemoteSwiftPackageReference "KingfisherWebP.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yeatse/KingfisherWebP.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.4.0;
+			};
+		};
+		03CB34802930779E00422277 /* XCRemoteSwiftPackageReference "Rakuten-Ads-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rakuten-ads/Rakuten-Ads-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 1.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03CB3470292F275C00422277 /* RakutenOneAuthClaims */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CB346F292F275C00422277 /* XCRemoteSwiftPackageReference "id-sdk-ios-mirror.git" */;
+			productName = RakutenOneAuthClaims;
+		};
+		03CB3472292F275C00422277 /* RakutenOneAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CB346F292F275C00422277 /* XCRemoteSwiftPackageReference "id-sdk-ios-mirror.git" */;
+			productName = RakutenOneAuthCore;
+		};
+		03CB3474292F275C00422277 /* RakutenOneAuthDeviceCheckAssertions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CB346F292F275C00422277 /* XCRemoteSwiftPackageReference "id-sdk-ios-mirror.git" */;
+			productName = RakutenOneAuthDeviceCheckAssertions;
+		};
+		03CB3476292F275C00422277 /* RakutenOneAuthRAE */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CB346F292F275C00422277 /* XCRemoteSwiftPackageReference "id-sdk-ios-mirror.git" */;
+			productName = RakutenOneAuthRAE;
+		};
+		03CB3478292F275C00422277 /* RakutenOneAuthREM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CB346F292F275C00422277 /* XCRemoteSwiftPackageReference "id-sdk-ios-mirror.git" */;
+			productName = RakutenOneAuthREM;
+		};
+		03CB347B2930750F00422277 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CB347A2930750F00422277 /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
+			productName = Kingfisher;
+		};
+		03CB347E2930768B00422277 /* KingfisherWebP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CB347D2930768B00422277 /* XCRemoteSwiftPackageReference "KingfisherWebP.git" */;
+			productName = KingfisherWebP;
+		};
+		03CB34812930779E00422277 /* RUNABanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CB34802930779E00422277 /* XCRemoteSwiftPackageReference "Rakuten-Ads-iOS" */;
+			productName = RUNABanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 03CB3450292DD42600422277 /* Project object */;
+}

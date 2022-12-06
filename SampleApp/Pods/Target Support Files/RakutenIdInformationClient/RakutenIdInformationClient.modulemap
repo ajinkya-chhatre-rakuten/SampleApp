@@ -1,0 +1,8 @@
+framework module RakutenIdInformationClient {
+  umbrella header "RakutenIdInformationClient.h"
+
+  export *
+  module * { export * }
+
+  link framework "Foundation"
+}

@@ -1,0 +1,6 @@
+framework module RLogger {
+  umbrella header "RLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

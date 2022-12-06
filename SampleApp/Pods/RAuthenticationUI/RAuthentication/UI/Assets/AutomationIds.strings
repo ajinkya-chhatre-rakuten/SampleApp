@@ -1,0 +1,21 @@
+/* Automation identifiers */
+
+"logo"                     =       "rakuten__logo";
+"username"                 =       "user__userid";
+"password"                 =       "user__password";
+"showPassword"             =       "user__show_password";
+"login"                    =       "user__login";
+"privacyPolicy"            =       "user__privacy_policy_notice";
+"createNewAccount"         =       "user__register";
+"help"                     =       "user__help";
+"copyright"                =       "copyright";
+"errorMessage"             =       "error__message";
+"errorUsername"            =       "error__username";
+"errorPassword"            =       "error__password";
+"logout"                   =       "logout";
+"logoutFromAllApps"        =       "logout__all_apps";
+"earnSuperPoints"          =       "earn__super_points";
+"forgetPasswordLink"       =       "forget__password";
+"welcomeText"              =       "welcome__text";
+"loginWithDiffAcc"         =       "login__with_diff_account";
+

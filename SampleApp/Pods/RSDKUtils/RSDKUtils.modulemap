@@ -1,0 +1,7 @@
+framework module RSDKUtils {
+  umbrella header "RSDKUtils.h"
+
+  export *
+  module * { export * }
+}
+

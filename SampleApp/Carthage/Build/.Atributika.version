@@ -1,0 +1,11 @@
+{
+  "commitish" : "4.9.10",
+  "iOS" : [
+    {
+      "hash" : "c708cefa47f80ac65a62116d67d6662a769ab00e536762f72ee9310296d31542",
+      "name" : "Atributika",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+    }
+  ]
+}

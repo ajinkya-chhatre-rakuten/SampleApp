@@ -1,0 +1,91 @@
+/* LOGIN DIALOG */
+"authentication.builtinLoginDialog.title"                           = "ロ\UFEFFグ\UFEFFイ\UFEFFン";
+"authentication.builtinLoginDialog.username(field).placeholder"     = "ユ\UFEFFー\UFEFFザI\UFEFFD";
+"authentication.builtinLoginDialog.password(field).placeholder"     = "パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFド";
+"authentication.builtinLoginDialog.password(field).passwordmanager" = "🔑";
+"authentication.builtinLoginDialog.showPassword(switch)"            = "パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドを表\UFEFF示す\UFEFFる";
+"authentication.builtinLoginDialog.passwordRetrieval(button)"       = "<u>パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドを忘\UFEFFれ\UFEFFた場\UFEFF合</u>";
+"authentication.builtinLoginDialog.message"                         = "楽\UFEFF天会\UFEFF員に登\UFEFF録（\UFEFF無\UFEFF料\UFEFF）し\UFEFFてお\UFEFF買\UFEFFい物をす\UFEFFるとポ\UFEFFイ\UFEFFン\UFEFFトが貯\UFEFFま\UFEFFり\UFEFFま\UFEFFす\UFEFF。";
+"authentication.builtinLoginDialog.login(button)"                   = "<b>ロ\UFEFFグ\UFEFFイ\UFEFFン</b>";
+"authentication.builtinLoginDialog.newUserRegistration(button)"     = "楽\UFEFF天会\UFEFF員に登\UFEFF録（\UFEFF無\UFEFF料\UFEFF）";
+"authentication.builtinLoginDialog.skip(button)"                    = "閉\UFEFFじ\UFEFFる";
+"authentication.builtinLoginDialog.error.username_required"         = "ユ\UFEFFー\UFEFFザI\UFEFFDを入\UFEFF力し\UFEFFてく\UFEFFだ\UFEFFさ\UFEFFい\UFEFF。";
+"authentication.builtinLoginDialog.error.password_required"         = "パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドを入\UFEFF力し\UFEFFてく\UFEFFだ\UFEFFさ\UFEFFい\UFEFF。";
+"authentication.builtinLoginDialog.error.username_password_invalid" = "ユ\UFEFFー\UFEFFザI\UFEFFD、パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドの入\UFEFF力に誤\UFEFFりがあ\UFEFFるか登\UFEFF録さ\UFEFFれ\UFEFFてい\UFEFFま\UFEFFせ\UFEFFん\UFEFF。";
+"authentication.builtinLoginDialog.error.username_password_required"= "ユ\UFEFFー\UFEFFザI\UFEFFD、パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドを入\UFEFF力し\UFEFFてく\UFEFFだ\UFEFFさ\UFEFFい\UFEFF。";
+
+/* ACCOUNT SELECTION DIALOG */
+"authentication.builtinAccountSelectionDialog.title"                = "ロ\UFEFFグ\UFEFFイ\UFEFFン";
+"authentication.builtinAccountSelectionDialog.welcome"              = "<b>{FULLNAME}さ\UFEFFん</b>でロ\UFEFFグ\UFEFFイ\UFEFFンし\UFEFFま\UFEFFす\UFEFFか\UFEFF。";
+"authentication.builtinAccountSelectionDialog.login(button)"        = "<b>ロ\UFEFFグ\UFEFFイ\UFEFFン</b>";
+"authentication.builtinAccountSelectionDialog.useOtherAccount"      = "<b>{FULLNAME}さ\UFEFFん</b>でな\UFEFFい場\UFEFF合、別のア\UFEFFカ\UFEFFウ\UFEFFン\UFEFFトでロ\UFEFFグ\UFEFFイ\UFEFFンをし\UFEFFてく\UFEFFだ\UFEFFさ\UFEFFい\UFEFF。";
+"authentication.builtinAccountSelectionDialog.manualLogin(button)"  = "別のア\UFEFFカ\UFEFFウ\UFEFFン\UFEFFトでロ\UFEFFグ\UFEFFイ\UFEFFン";
+"authentication.builtinAccountSelectionDialog.skip(button)"         = "閉\UFEFFじ\UFEFFる";
+
+/* LOGOUT DIALOG */
+"authentication.builtinLogoutDialog.title"                          = "ロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFト";
+"authentication.builtinLogoutDialog.revokeAccessToken(button)"      = "ロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFト";
+"authentication.builtinLogoutDialog.logoutCompletely(button)"       = "楽\UFEFF天グ\UFEFFル\UFEFFー\UFEFFプ全\UFEFFてのア\UFEFFプ\UFEFFリからロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFト";
+"authentication.builtinLogoutDialog.cancel(button)"                 = "閉\UFEFFじ\UFEFFる";
+
+"authentication.builtinLogoutDialog.confirmLogoutAlert.title"           = "ロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFト";
+"authentication.builtinLogoutDialog.confirmLogoutAlert.message"         = "{APP_NAME}か\UFEFFらロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFトし\UFEFFよ\UFEFFうとし\UFEFFてい\UFEFFま\UFEFFす\UFEFF。";
+"authentication.builtinLogoutDialog.confirmLogoutAlert.proceed(button)" = "ロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFト";
+"authentication.builtinLogoutDialog.confirmLogoutAlert.cancel(button)"  = "キ\UFEFFャ\UFEFFン\UFEFFセ\UFEFFル";
+
+"authentication.builtinLogoutDialog.confirmLogoutFromAllAlert.title"           = "楽\UFEFF天グ\UFEFFル\UFEFFー\UFEFFプ全\UFEFFてのア\UFEFFプ\UFEFFリか\UFEFFらロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFト";
+"authentication.builtinLogoutDialog.confirmLogoutFromAllAlert.message"         = "現\UFEFF在ロ\UFEFFグ\UFEFFイ\UFEFFンし\UFEFFてい\UFEFFる全\UFEFFての楽\UFEFF天ア\UFEFFプ\UFEFFリか\UFEFFらロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFトし\UFEFFま\UFEFFす\UFEFF。";
+"authentication.builtinLogoutDialog.confirmLogoutFromAllAlert.proceed(button)" = "ロ\UFEFFグ\UFEFFア\UFEFFウ\UFEFFト";
+"authentication.builtinLogoutDialog.confirmLogoutFromAllAlert.cancel(button)"  = "キ\UFEFFャ\UFEFFン\UFEFFセ\UFEFFル";
+
+/* VERIFICATION DIALOG */
+"authentication.builtinVerificationDialog.title"                        = "ロ\UFEFFグ\UFEFFイ\UFEFFン";
+"authentication.builtinVerificationDialog.message"                      = "<b>{FULLNAME}</b>さ\UFEFFん\UFEFF、\n{REASON}";
+"authentication.builtinVerificationDialog.passwordRetrieval(button)"    = "<u>パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドを忘\UFEFFれ\UFEFFた場\UFEFF合</u>";
+"authentication.builtinVerificationDialog.showPassword(switch)"         = "パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドを表\UFEFF示す\UFEFFる";
+"authentication.builtinVerificationDialog.password(field).placeholder"  = "パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFド";
+"authentication.builtinVerificationDialog.confirm(button)"              = "<b>ロ\UFEFFグ\UFEFFイ\UFEFFン</b>";
+"authentication.builtinVerificationDialog.cancel(button)"               = "キ\UFEFFャ\UFEFFン\UFEFFセ\UFEFFル";
+"authentication.builtinVerificationDialog.error.passwordRequired"       = "パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドを入\UFEFF力し\UFEFFてく\UFEFFだ\UFEFFさ\UFEFFい\UFEFF。";
+"authentication.builtinVerificationDialog.error.passwordInvalid"        = "パ\UFEFFス\UFEFFワ\UFEFFー\UFEFFドの入\UFEFF力に誤\UFEFFりがあ\UFEFFるか登\UFEFF録さ\UFEFFれ\UFEFFてい\UFEFFま\UFEFFせ\UFEFFん\UFEFF。";
+"authentication.builtinVerificationDialog.error.networkError"           = "只\UFEFF今サ\UFEFFー\UFEFFバ\UFEFFー\UFEFFに接\UFEFF続で\UFEFFき\UFEFFま\UFEFFせ\UFEFFん\UFEFF。時\UFEFF間\UFEFFをお\UFEFFい\UFEFFて再\UFEFF度試\UFEFF行し\UFEFFてく\UFEFFだ\UFEFFさ\UFEFFい\UFEFF。";
+
+/* VERIFICATION WORKFLOW */
+"authentication.builtinVerificationWorkflow.touchID.message"            = "{FULLNAME}さん\n\n{REASON}";
+
+"authentication.builtinVerificationWorkflow.error.alreadyRunning"        = "認証処理が既に実行されています";
+"authentication.builtinVerificationWorkflow.error.alreadyRunning.reason" = "認証処理は一つずつしか実行できません。";
+
+"authentication.builtinVerificationWorkflow.error.cancelled"        = "認証処理がキャンセルされました";
+"authentication.builtinVerificationWorkflow.error.cancelled.reason" = "認証処理が完了する前にキャンセルされました。";
+
+"authentication.builtinVerificationWorkflow.error.couldNotAuthenticate"        = "認証できませんでした";
+"authentication.builtinVerificationWorkflow.error.couldNotAuthenticate.reason" = "ユーザID、パスワードを使用して認証できませんでした。";
+
+"authentication.builtinVerificationWorkflow.error.biometricCheckFailed"                     = "生体認証で認証できませんでした";
+"authentication.builtinVerificationWorkflow.error.biometricCheckFailed.invalidPassword"     = "生体認証で取得したパスワードを使用して認証できませんでした。";
+"authentication.builtinVerificationWorkflow.error.biometricCheckFailed.noPasswordAvailable" = "生体認証でパスワードを取得できませんでした。\nパスワードを入力してください。";
+
+"authentication.builtinVerificationWorkflow.error.failed"        = "ユーザー権限を確認できませんでした";
+"authentication.builtinVerificationWorkflow.error.failed.reason" = "エラーが発生し、認証を完了できませんでした。";
+
+"authentication.builtinVerificationWorkflow.error.networkError"        = "サーバーに接続できませんでした";
+"authentication.builtinVerificationWorkflow.error.networkError.reason" = "只今サーバーに接続できません。時間をおいて再度試行してください。";
+
+"authentication.builtinVerificationWorkflow.error.invalidAuthenticator"        = "権限が無効です";
+"authentication.builtinVerificationWorkflow.error.invalidAuthenticator.reason" = "使用された権限では、ログイン操作を完了できませんでした。";
+
+
+/* MISC */
+"authentication.builtinDialogs.privacyPolicyPage(title)"    = "個\UFEFF人情\UFEFF報保\UFEFF護方\UFEFF針";
+"authentication.builtinDialogs.privacyPolicy(button)"       = "<u>個\UFEFF人情\UFEFF報保\UFEFF護方\UFEFF針</u>";
+"authentication.builtinDialogs.privacyPolicyURL"            = "https://privacy.rakuten.co.jp/app/";
+"authentication.builtinDialogs.privacyPolicyAcknowledgement(date)" = "個\UFEFF人情\UFEFF報保\UFEFF護方針に同\UFEFF意し\UFEFFてロ\UFEFFグ\UFEFFイ\UFEFFン";
+"authentication.builtinDialogs.helpPage(title)"             = "ヘ\UFEFFル\UFEFFプ";
+"authentication.builtinDialogs.help(button)"                = "<u>ヘ\UFEFFル\UFEFFプ</u>";
+"authentication.builtinDialogs.helpURL"                     = "https://ichiba-smp.faq.rakuten.net/detail/000002563";
+"authentication.builtinDialogs.error.noPermissionToPublishToken"        = "情\UFEFF報が取\UFEFF得出\UFEFF来\UFEFFま\UFEFFせ\UFEFFんで\UFEFFし\UFEFFた\UFEFF。サ\UFEFFー\UFEFFバ\UFEFFーがメ\UFEFFン\UFEFFテ\UFEFFナ\UFEFFン\UFEFFス中で\UFEFFす。し\UFEFFば\UFEFFら\UFEFFく待\UFEFFっ\UFEFFてか\UFEFFら更\UFEFF新し\UFEFFてく\UFEFFだ\UFEFFさ\UFEFFい\UFEFF。";
+
+"authentication.format.fullname(firstName, middleName, lastName)" = "%1$@ %2$@ %3$@";
+"authentication.format.fullname(firstName, lastName)" = "%2$@\U00A0%1$@";
+"authentication.format.displayname(firstName, lastName)" = "%2$@\U00A0%1$@";

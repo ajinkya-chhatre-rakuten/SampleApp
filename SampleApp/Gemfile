@@ -1,0 +1,14 @@
+source 'https://rubygems.org'
+gem 'fastlane', '2.170.0'
+gem 'cocoapods', '1.11.2'
+gem 'slather', '2.6.0'
+gem 'cocoapods-binary', '0.4.4'
+gem 'cocoapods-keys', '2.2.1'
+gem 'xcodeproj', '1.21.0'
+gem 'xcov', '1.7.5'
+gem 'danger'
+gem 'danger-xcov', :git => 'https://github.com/rakutentech/danger-xcov.git'
+gem 'danger-ios_logs', '0.1.2'
+
+plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
+eval_gemfile(plugins_path) if File.exist?(plugins_path)

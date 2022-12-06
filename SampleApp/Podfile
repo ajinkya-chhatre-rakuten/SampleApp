@@ -1,0 +1,36 @@
+platform :ios, '14.4'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitpub.rakuten-it.com/scm/eco/core-ios-specs.git'
+source 'https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS.git'
+source 'https://ghe.rakuten-it.com/VAIS/voiceai-specs.git'
+
+#plugin 'cocoapods-binary'
+
+use_frameworks!
+inhibit_all_warnings!
+enable_bitcode_for_prebuilt_frameworks!
+
+
+target 'SampleApp' do
+  
+
+  # Pods for SampleApp
+  pod 'RAuthenticationChallenge', '~> 4.3.5', :binary => true
+  pod 'RAuthenticationCore',      '~> 4.3.5', :binary => true
+  pod 'RAuthenticationUI',        '~> 4.3.5', :binary => true
+  pod 'RPushPNP',                 '~> 4.2.0', :binary => true
+  pod 'Firebase/Analytics',     '~> 7.3.0',  :binary => true
+  pod 'Firebase/Crashlytics',   '~> 7.3.0',  :binary => true
+  pod 'Firebase/RemoteConfig',  '~> 7.3.0',  :binary => true
+  pod 'R.swift',                '~> 5.2.2',  :binary => true
+  pod 'RAnalytics',               '9.6.0', :binary => true
+  
+  plugin 'cocoapods-keys', {
+    :project => "SampleApp",
+    :keys => [
+      "SampleAppAPIClientSecret",
+      "TestKey"
+    ]}
+  
+end

@@ -1,0 +1,10 @@
+framework module RakutenEngineClient {
+  umbrella header "RakutenEngineClient.h"
+
+  export *
+  module * { export * }
+
+  link framework "CoreLocation"
+  link framework "Foundation"
+  link framework "UIKit"
+}

@@ -1,0 +1,11 @@
+{
+  "commitish" : "6.1.0",
+  "iOS" : [
+    {
+      "hash" : "6375409d5590e112429dac9878d02e76b2d1704912306146bd53171db5f44899",
+      "name" : "ReSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+    }
+  ]
+}

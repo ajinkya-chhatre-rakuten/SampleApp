@@ -1,0 +1,8 @@
+framework module RakutenWebClientKit {
+  umbrella header "RakutenWebClientKit.h"
+
+  export *
+  module * { export * }
+
+  link framework "Foundation"
+}

@@ -1,0 +1,8 @@
+framework module RakutenMemberInformationClient {
+  umbrella header "RakutenMemberInformationClient.h"
+
+  export *
+  module * { export * }
+
+  link framework "Foundation"
+}

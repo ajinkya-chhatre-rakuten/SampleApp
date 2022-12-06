@@ -1,0 +1,4 @@
+framework module Atributika {
+  header "Atributika-Swift.h"
+  requires objc
+}
